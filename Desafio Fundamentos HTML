@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title style="font-family:verdana">Módulo I - Fundamentos em HTML</title>
+    </head>
+
+    <body>
+       <h1 id="inicio" style="font-family:verdana">Fundamentos de HTML<sup><small><a href="Módulo I - Fundamentos EN.html">(EN)</a></small></sup></h1>
+       <hr />
+
+       <h2 style="font-family:verdana">Visão geral do curso:</h2>
+            <ul>
+                <li style="font-family:verdana"><a href="#surgimento">Como surgiu a internet?</a></li>
+                <li style="font-family:verdana"><a href="#html">O que é HTML e como funciona?</a></li>
+                <li style="font-family:verdana"><a href="#tags">O que são TAGS?</a></li>
+                <li style="font-family:verdana"><a href="#links">Links de Referências.</a></li>
+            </ul>
+
+        <h2 id="surgimento" style="font-family:verdana">Como surgiu a internet?</h2><a><p style="font-family:verdana">
+            <a href="#inicio">Início▲</a></p>
+            <p style="font-family:verdana"><strong>1958</strong>- Fundação da <abbr title="Agência de Projetos de Pesquisa Avançada de Defesa">DARPA</abbr> na qual <strong>teve papel fundamental na pesquisa e desenvolvimento de novas tecnologias para fins defensivos e militares, entre elas, a rede de computadores.</strong></p>           
+            <p style="font-family:verdana"><strong>1961</strong>- Leonard Kleinrock apresentou sua teoria de comutação de pacotes onde alegava a <strong>capacidade de dois servidores para comunicaram-se entre si enviando e recebendo informações transportadas por meio de rede de nós.</strong></p>
+            <p style="font-family:verdana"><strong>1962</strong>- J. C. R Licklider, atual chefe da DARPA e pioneiro da Internet, descreveu o conceito de uma <strong>rede galáctica para acessar rapidamente dados de qualquer lugar do mundo.</strong></p>
+            <p style="font-family:verdana">Ainda no mesmo ano Paul Baran atuou independentemente na comutação de pacotes na <i>RAND Corporation.</i> Apresentando no mesmo ano um <strong>sistema de comunicações que, por meio de computadores conectados a uma rede descentralizada, era imune a ataques externos.</strong></p>
+            <p style="font-family:verdana"><strong>1965</strong>- Lawrence G. Roberts contribui enormemente com o avanço da internet onde, em Massachusetts, e Thomas Merrill, na Califórnia, <strong>conectaram um computador TX2 a um Q-32 por uma linha telefônica comutada de baixa velocidade. O experimento bem sucedido criou a primeira <abbr title="Wide Area Network">WAN</abbr> da história.</strong></p>
+            <p style="font-family:verdana"><strong>1966</strong>- Roberts entrou na DARPA e <strong>criou o plano da ARPANET para desenvolver a primeira rede de comutação de pacotes</strong> junto a Robert Kahn e Howard Frank. Todavia o primeiro protótipo de uma rede comutada por pacotes descentralizada já tivesse sido projetado pelo <abbr title="Laboratório Nacional de Física">NPL</abbr> do Reino Unido em 1968, ganhando visibilidade somente em 1969, onde um computador da <abbr title="Universidade da Califórnia">UCLA</abbr> se conectou com sucesso a outro do <i>Stanford Research Institute.</i></p>
+            <p style="font-family:verdana"><strong>1970</strong>- ARPANET consolida-se com centenas de computadores conectados. S. Crocker e sua equipe do Network Working Group estabeleceram o <strong>protocolo de controle chamado Network Control Protocol (NCP)</strong>, que permitia o desenvolvimento de aplicativos a partir dos computadores conectados à ARPANET.</p>
+            <p style="font-family:verdana"><strong>1972</strong>- Ray Tomlinson criou o <strong>software básico de e-mail, que se tornou o aplicativo mais importante da década e mudou a natureza da comunicação e colaboração entre as pessoas.</strong> O impacto fez com que a ARPANET se afasta-se gradativamente do uso militar e aproximando-se do uso científico na disseminação de informações. Por esse motivo, em 1974, mais de 50 universidades americanas estavam conectadas à ARPANET.</p>
+            <p style="font-family:verdana"><strong>1974</strong>- Robert Kahn e Vinton Cerf <strong>desenvolveram uma nova versão do protocolo</strong> que respondia a um ambiente de rede de arquitetura aberta. Esse novo protocolo foi chamado de TCP/IP.</p>
+            <p style="font-family:verdana"><strong>1983</strong>- ARPANET mudou o protocolo NCP para o novo TCP/IP. <strong>O IP havia se tornado o serviço portador da Infraestrutura de Informação Global.</strong></p>
+            <p style="font-family:verdana"><strong>1985</strong>- A Internet já estava consolidada como a <strong>principal rede de comunicação com alcance global.</strong></p>
+            <p style="font-family:verdana"><strong>1989</strong>- Tim Berners-Lee <strong>desenvolveu a <i>World Wide Web</i> para facilitar o trabalho colaborativo no CERN.</strong> Onde basicamente, a WWW funciona como um sistema de distribuição de documentos de hipertexto (HTTP) interconectados e acessíveis por meio de um navegador web conectado à Internet.</p>
+            <p style="font-family:verdana">O sistema se tornou tão popular no CERN que, em 1991, foi aberto ao público externo. Isso foi possível graças à criação do navegador Mosaic em 1993. De fato, sua recepção foi tão rápida que em 1997 havia mais de 200 mil sites.</p>
+
+        <h2 id="html" style="font-family:verdana">O que é HTML e como funciona?</h2>
+        <a href="#inicio">Início▲</a></p>
+             <p style="font-family:verdana">HTML não é linguagem de programação, mas sim um <mark>arquivo de marcação de textos delimitados por nomes ou comandos que o navegador consegue interpretar.</mark> Cada um destes nomes ou comandos delimitadores tem uma função e comportamento especifíco.</p>
+
+        <h2 id="tags" style="font-family:verdana">O que são TAGS?</h2>
+        <a href="#inicio">Início▲</a></p>
+            <p style="font-family:verdana">A estrutura de uma HTML estrutura é formada por um <strong>conjunto de elementos, ou mais conhecido por hipertextos, que se conectam entre si
+            formando a página.</strong> Estes elementos também chamados de tags HTML, são utilizados para informar ao navegador que tipo de estrutura é essa
+            que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.</p>
+
+            <h3 style="font-family:verdana">Alguns exemplos de TAGS:</h3>
+                <ol>
+                    <li style="font-family:verdana"><strong>Realçar e Destacar "mark":</strong> Este comando permite criar <mark>textos realçados e destacados como este.</mark></li>
+                    <li style="font-family:verdana"><strong>Itálico "i":</strong> Permite formatar o texto em <i>itálico como este exemplo.</i></li>
+                    <li style="font-family:verdana"><strong>Sublinhado "u":</strong> Comando que ajuda a formatar o <u>texto com sublinhados.</u></li>
+                    <li style="font-family:verdana"><strong>Tachado "del":</strong> Comando que permite tachar determinado <del>texto dentro da estrutura html como este.</del></li>
+                    <li style="font-family:verdana"><strong>Subscript "sub":</strong> Permite "rebaixar" parte de texto determinado <sub>como este exemplo</sub></li>
+                    <li style="font-family:verdana"><strong>Citações "blockquote":</strong> Permite realizar citações e referênciar outros sites como no exemplo abaixo:</li>
+                        <blockquote cite="https://rockcontent.com/br/blog/historia-da-internet/">
+                        "Conhecer a história da Internet é tão útil quanto fascinante. Neste artigo, você descobrirá os principais acontecimentos que marcaram o nascimento da mais importante revolução tecnológica do mundo nos últimos 40 anos."
+                        </blockquote>
+                    <li style="font-family:verdana"><strong>Cabeçalho "h":</strong> comando para operar títulos, possui niveis como nos exemplos abaixo: </li>
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>
+                        <h5>Heading 5</h5>
+                        <h6>Heading 6</h6>
+                </ol>
+
+        <h2 id="links" style="font-family:verdana">Links de Referências</h2>
+        <a href="#inicio">Início▲</a></p>
+            <p style="font-family:verdana"><a href="https://rockcontent.com/br/blog/historia-da-internet/">Rock Content - A História da Internet</a></p>
+            <p style="font-family:verdana"><a href="https://www.w3schools.com/default.asp">W3 Schools - HTML e Linguagens de Programação</a></p>
+    </body>
+</html>
